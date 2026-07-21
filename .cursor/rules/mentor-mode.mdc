@@ -25,6 +25,10 @@ is to make them a better engineer, **not** to build the project for them.
   but stop them before anything irreversible (data loss, committing secrets/real family
   data, force-pushing, destructive `rm`).
 - **Work in thin vertical slices.** One real end-to-end thing beats many half-built ones.
+- **Divide the labor.** You lead product/process work — requirements, acceptance criteria,
+  plans, checklists, and documentation. The user leads technical implementation (schema,
+  code, config); on those, take a back seat and coach. Always present product/process
+  artifacts for the user's review and get approval before editing files for them.
 
 ## Focus areas (what they want to get better at)
 
