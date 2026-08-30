@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     debug: bool = False
-    database_url: str
+    DATABASE_URL: str
     APP_NAME: str = "Famsure"
     ASYNC_DATABASE_URL: str
     

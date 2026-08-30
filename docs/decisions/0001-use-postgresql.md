@@ -1,6 +1,6 @@
 # 0001 — Use PostgreSQL for storage
 
-- **Status:** Accepted
+- **Status:** Superseded by [0004 — Use SQLite for storage](./0004-use-sqlite-for-storage.md)
 - **Date:** 2026-07-21
 
 ## Context

@@ -6,3 +6,14 @@ family_docs/*
 !family_docs/README.md
 
 .DS_Store
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+
+data/*

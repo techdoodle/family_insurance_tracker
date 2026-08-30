@@ -20,9 +20,7 @@ async_session = async_sessionmaker(
 class Base(DeclarativeBase):
     pass
 
-def get_db() -> AsyncGenerator[AsyncSession, None]:
+async def get_db() -> AsyncGenerator[AsyncSession, None]:
     async with async_session() as session:
-    try:
         yield session
-    finally:
-        await session.close()
+    
